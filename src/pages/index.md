@@ -4,17 +4,17 @@ sidebar:
   entries:
     - title: Welcome
       url: '#intro'
-    - title: Who we are
+    - title: Who I Am
       url: '#one'
-    - title: What we do
+    - title: What I Do
       url: '#two'
-    - title: Get in touch
+    - title: Get In Touch
       url: '#three'
 sections:
-  - title: Hyperspace
+  - title: Parker McMullin
     subtitle: |-
-      Cras aliquam amet adipiscing nibh faucibus suscipit ut Parturient  
-      col accumsan est arcu donec sed Eleifend Integer.
+      Hey there! I'm a full-stack web developer for Success Engine LLC. I am currently 
+      working on a VoIP SaaS startup. My preferred stack would be Laravel or Node for server-side and Vue or React on the client-side.
     section_id: intro
     background_style: style1
     actions:
@@ -24,94 +24,67 @@ sections:
         is_primary: false
     component: Intro
     type: intro
-  - title: Spotlights Section
+  - title: A Little About Me
+    subtitle: |-
+      I love my life. 😁 I have a hard-working and fun wife. My 1 year old daughter is hilarious and surprises us all of the time. I have a newborn baby boy who we are getting to know and love.<br><br>
+      If anyone is interested in my hobbies- I enjoy a good book (usually in the Fantasy Fiction or Self-Help genres) such as the Wheel of Time series, the Mistborn series, The Pragmatic Programmer, The Nature of Code, etc. I research new inventions and try to be up to speed on how they work. My overall favorite thing to do, which honestly takes up most of my time, is hanging out with my family.<br><br>
+      I feel like I can relate to many other devs out there who LOVE to code and try new things but yet feel exhausted by it at the same time. There’s a constant drive to study and build that is never satisfied- maybe I’m a code addict? 😉
     section_id: one
     background_style: style2
-    component: Spotlights
+    component: Intro
     type: spotlights
-  - title: What we do
+  - title: What I Do
     subtitle: >-
-      Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
-      mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget
-      hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit
-      quis lorem.
+      I have an education in Linux and Networking Administration, but my passion is in web 
+      application development. Put the two together and BAM! Hopefully something cool..<br><br>
+      Recently, my focus has been in mixing advancing VoIP technology with the capability of 
+      the web. This has been very fun and very challenging as I get into some uncharted territory.<br><br>
+      I also get some chances to share my time and code with others- I really appreciate 
+      the altrustic development community, so I try to give back. Below are some of my public projects.
     section_id: two
     background_style: style3
     features_list:
-      - title: Lorem ipsum amet
+      - title: Coda JS
         text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
+          An eloquent Node API for interacting with your [Coda](https://coda.io "Coda") Docs.
         icon: fa-code
-      - title: Aliquam sed nullam
+      - title: Vim Gym
         text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        icon: fa-lock
-      - title: Sed erat ullam corper
+          Vim is my daily editor. I love the capability and customization- my peers think it's 
+          magic! It's surprisingly simple, once you get involved. This project is to create a 
+          bunch of contained exercises with varying difficulty levels. Check it out 
+          [here](https://github.com/google-mac/vim-gym "here").
+        icon: fa-superpowers
+      - title: Documentation
         text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        icon: fa-cog
-      - title: Veroeros quis lorem
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        icon: fa-desktop
-      - title: Urna quis bibendum
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        icon: fa-chain
-      - title: Aliquam urna dapibus
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        icon: fa-diamond
-    actions:
-      - label: Learn more
-        url: generic.md
-        is_scrolly: false
-        is_primary: false
+          Another thing I try to help out with is documentation. Some people think I have a 
+          knack for words and simplicity, so I sometimes contribute to documentation repos 
+          to help fellow readers digest the content more easily.
+        icon: fa-file-alt
     component: Features
     type: features
   - title: Get in touch
     text: >-
-      Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
-      mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget
-      hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit
-      quis lorem.
+      Reach out if you would like more information on any of my work (even some private work 
+      can be discussed) or you're interested in chatting! I'm friendly enough.
     section_id: three
     background_style: style1
     contact_list:
-      - title: Address
-        text: |-
-          12345 Somewhere Road #654
-          Nashville, TN 00000-0000
-          USA
       - title: Email
-        text: user@Hyperspace.tld
+        text: parker.mcmullin01@gmail.com
         url: '#'
-      - title: Phone
-        text: (000) 000-0000
     social:
       title: Social
       social_icons:
         - title: Twitter
           icon: fa-twitter
-          url: '#'
-        - title: Facebook
-          icon: fa-facebook
-          url: '#'
+          url: 'https://twitter.com/_googlemac'
         - title: GitHub
           icon: fa-github
-          url: '#'
-        - title: Instagram
-          icon: fa-instagram
-          url: '#'
+          url: 'https://github.com/google-mac'
         - title: LinkedIn
           icon: fa-linkedin
-          url: '#'
+          url: 'https://www.linkedin.com/in/parker-mcmullin-1b0a26129/'
     component: Contact
     type: contact
 menus:

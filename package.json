@@ -1,6 +1,6 @@
 {
-  "name": "hyperspace",
-  "description": "Hyperspace",
+  "name": "personal-site",
+  "description": "Hyperspace themed personal website",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
