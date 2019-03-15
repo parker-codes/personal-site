@@ -7,24 +7,15 @@ import Intro from './Intro';
 import Sidebar from './Sidebar';
 import Spotlights from './Spotlights';
 
-export {
-    Layout,
-    Contact,
-    Features,
-    Footer,
-    Header,
-    Intro,
-    Sidebar,
-    Spotlights
-};
+export { Layout, Contact, Features, Footer, Header, Intro, Sidebar, Spotlights };
 
 export default {
-    Layout,
-    Contact,
-    Features,
-    Footer,
-    Header,
-    Intro,
-    Sidebar,
-    Spotlights
+  Layout,
+  Contact,
+  Features,
+  Footer,
+  Header,
+  Intro,
+  Sidebar,
+  Spotlights,
 };
