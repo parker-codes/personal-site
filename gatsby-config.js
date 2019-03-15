@@ -35,5 +35,11 @@ module.exports = {
         pageContextProperty: `menus`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-136316141-1`,
+      },
+    },
   ],
 };
