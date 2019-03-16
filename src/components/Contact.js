@@ -13,7 +13,8 @@ export default class Contact extends React.Component {
           {markdownify(_.get(this.props, 'section.text'))}
           <div className="split style1">
             <section>
-              <form name="contact" method="post" data-netlify="true">
+              <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="fields">
                   <div className="field half">
                     <label htmlFor="name">Name</label>
